@@ -26,14 +26,17 @@ CareerPathFinder is a Java application designed to assist students in exploring 
     ```
    
 2. Navigate to the project directory:
-  ```bash
+   
+   ```bash
    cd career-path-finder
-  ```
+   ```
+
 3. Compile and run the application:
-  ```bash
+  
+   ```bash
    javac Main.java
    java Main
-  ```
+   ```
 4. Follow the on-screen instructions to complete the vocational assessment and view the results.
 
 ## Contributing
