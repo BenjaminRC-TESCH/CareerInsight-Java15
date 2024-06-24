@@ -1,31 +1,32 @@
 # CareerPathFinder
 
-CareerPathFinder is a Java application designed to assist students in exploring potential career paths through a vocational assessment test. The application presents a series of multiple-choice questions and provides insights into suitable career choices based on the user's responses. It utilizes JFreeChart-1.0.19.jar to visualize results in graphs and iText5-iTextPDF-5.5.12.jar to generate detailed PDF reports. Developed using Java 15, CareerPathFinder offers an intuitive interface for a seamless user experience in educational and career exploration.
+CareerPathFinder es una aplicación Java diseñada para ayudar a los estudiantes a explorar posibles caminos profesionales a través de un test de evaluación vocacional. La aplicación presenta una serie de preguntas de opción múltiple y ofrece perspectivas sobre opciones de carrera adecuadas basadas en las respuestas del usuario. Utiliza JFreeChart-1.0.19.jar para visualizar los resultados en gráficos e iText5-iTextPDF-5.5.12.jar para generar informes detallados en formato PDF. Desarrollado en Java 15, CareerPathFinder ofrece una interfaz intuitiva para una experiencia de usuario fluida en la exploración educativa y profesional.
 
-## Key Features
+## Características Clave
 
-- **Vocational Assessment**: Conducts a comprehensive vocational assessment through a series of multiple-choice questions.
+- **Evaluación Vocacional**: Realiza una evaluación vocacional completa mediante una serie de preguntas de opción múltiple.
   
-- **Graphical Representation**: Visualizes assessment results using JFreeChart, providing graphical insights into recommended career paths.
+- **Representación Gráfica**: Visualiza los resultados de la evaluación utilizando JFreeChart, proporcionando insights gráficos sobre los caminos profesionales recomendados.
 
-- **PDF Report Generation**: Generates detailed PDF reports using iText, outlining suggested areas of study based on assessment outcomes.
+- **Generación de Informes en PDF**: Genera informes detallados en PDF utilizando iText, describiendo las áreas de estudio sugeridas basadas en los resultados de la evaluación.
 
-- **User-friendly Interface**: Offers an intuitive user interface for easy navigation and personalized career exploration.
+- **Interfaz Amigable**: Ofrece una interfaz intuitiva para una navegación fácil y una exploración personalizada de carreras.
 
-## Requirements
 
-- Java Development Kit (JDK) 15 or higher.
-- Libraries: JFreeChart-1.0.19.jar, iText5-iTextPDF-5.5.12.jar (included in the project).
+## Requisitos
 
-## Usage
+- Java Development Kit (JDK) 15 o superior.
+- Bibliotecas: JFreeChart-1.0.19.jar, iText5-iTextPDF-5.5.12.jar (incluidas en el proyecto).
 
-1. Clone the repository:
+## Uso
+
+1. Clona el repositorio:
 
    ```bash
    git clone https://github.com/tu_usuario/career-path-finder.git
     ```
    
-2. Navigate to the project directory:
+2. Compila y ejecuta la aplicación:
    
    ```bash
    cd career-path-finder/src/test/
@@ -37,8 +38,10 @@ CareerPathFinder is a Java application designed to assist students in exploring 
    javac bienvenida.java
    java bienvenida
    ```
-4. Follow the on-screen instructions to complete the vocational assessment and view the results.
+4. Sigue las instrucciones en pantalla para completar la evaluación vocacional y ver los resultados.
 
-## Contributing
-Contributions are welcome! Please feel free to fork the repository and submit pull requests to suggest improvements or additional features.
+5. El PDF resultante se generará en la carpeta resultados.
+
+## Contribuciones
+¡Las contribuciones son bienvenidas! Siéntete libre de bifurcar el repositorio y enviar solicitudes de extracción para sugerir mejoras o características adicionales.
 
